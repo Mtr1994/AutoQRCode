@@ -1,0 +1,11 @@
+prefix=D:\Project\qrencode-4.1.1\install
+exec_prefix=D:\Project\qrencode-4.1.1\install/bin
+libdir=D:\Project\qrencode-4.1.1\install/lib
+includedir=D:\Project\qrencode-4.1.1\install/include
+
+Name: libqrencode
+Description: A QR Code encoding library
+Version: 4.1.1
+Libs: -L${libdir} -lqrencode
+Libs.private: 
+Cflags: -I${includedir}
