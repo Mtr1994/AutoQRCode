@@ -1,15 +1,3 @@
-# C++ objects and libs
-*.slo
-*.lo
-*.o
-*.a
-*.la
-*.lai
-*.so
-*.so.*
-*.dll
-*.dylib
-
 # Qt-es
 object_script.*.Release
 object_script.*.Debug
@@ -32,7 +20,7 @@ Makefile*
 *.qm
 *.prl
 
-Output
+build
 
 # Qt unit tests
 target_wrapper.*

@@ -1,12 +1,7 @@
-﻿QMainWindow#MainWindow
+﻿QWidget
 {
-    min-width: 48em;
-    min-height: 24em;
-}
-
-QWidget
-{
-    font: 10pt "Microsoft Yahei";
+    font: 9pt "Microsoft Yahei";
+    border-radius: 3px;
 }
 
 QWidget:focus
@@ -29,12 +24,17 @@ QWidget#widgetTargetBase
 }
 
 /* QPushButton */
+/* QPushButton */
+QPushButton
+{
+    padding: 9px 15px;
+    border-width: 1px;
+    border-style: solid;
+}
+
 QPushButton[Ok="true"]
 {
-    min-height: 1.87em;
-    border-radius: 0.1em;
-    padding-left: 2em;
-    padding-right: 2em;
+    border-color: #409eff;
     color: #fefefe;
     background-color: #409eff;
 }
