@@ -60,5 +60,6 @@ RESOURCES += \
 #0x0800代表和系统当前语言一致
 RC_LANG = 0x0800
 
-LIBS += -L$$PWD/Sdk/qrencode/lib \
--lqrencode
+LIBS += -L$$PWD/Sdk/qrencode/lib
+LIBS += -L$$PWD/Sdk/qrencode/bin
+LIBS += -lqrencode
